@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class ProjectOne {
 final static String url = "jdbc:mysql://localhost:3306/project_one";
 final static String username = "root";
-final static  String password = "Zinalina247@";
+final static  String password = "";
 
 static void createTable(){
     try(Connection connection = DriverManager.getConnection(url, username, password);
